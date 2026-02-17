@@ -36,7 +36,7 @@
             text-align: center
         }
         #circle{
-            position: absolute;
+            position: relative;
             height:100px;
             width:100px;
             background-color:rgb(255, 255, 255);
@@ -44,6 +44,9 @@
             margin-top: 10px;
             z-index: 1;
             transition: transform 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         #circle:hover{
